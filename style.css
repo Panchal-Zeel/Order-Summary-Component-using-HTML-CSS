@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 98%);
+
+}
+
+.card {
+  width: 375px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.section {
+    padding: 25px;
+    background-color: white;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  color: hsl(223, 47%, 23%);
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+.content p {
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  padding: 10px 0;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: 20px auto;
+  background-color: hsl(225, 100%, 98%);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.plan .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+  font-size: 15px;
+}
+
+.first h4 {
+    text-transform: capitalize;
+    color: hsl(223, 47%, 23%);
+    
+}
+
+.first p {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.plan img {
+  width: 40px;
+}
+
+.plan .second a {
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+    
+}
+
+.plan .second a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    width: 88%;
+    border-radius: 9px;
+    font-weight: 600;
+    box-shadow: 0px 10px 20px 8px hsl(225, 100%, 94%);
+}
+
+.buttons button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.buttons a:hover {
+    color: hsl(223, 47%, 23%);
+}
